@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea383626.chunk.css",
+    "main.js": "/static/js/main.f45364fb.chunk.js",
+    "main.js.map": "/static/js/main.f45364fb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5d4e5b6b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5d4e5b6b.js.map",
+    "static/js/2.8186ab0a.chunk.js": "/static/js/2.8186ab0a.chunk.js",
+    "static/js/2.8186ab0a.chunk.js.map": "/static/js/2.8186ab0a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ea383626.chunk.css.map": "/static/css/main.ea383626.chunk.css.map",
+    "static/js/2.8186ab0a.chunk.js.LICENSE.txt": "/static/js/2.8186ab0a.chunk.js.LICENSE.txt",
+    "static/media/main.min.css": "/static/media/JetBrainsMono-Regular.b45edff6.ttf",
+    "static/media/dad.16def94b.jpg": "/static/media/dad.16def94b.jpg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/mom.d401de87.jpg": "/static/media/mom.d401de87.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d4e5b6b.js",
+    "static/js/2.8186ab0a.chunk.js",
+    "static/css/main.ea383626.chunk.css",
+    "static/js/main.f45364fb.chunk.js"
+  ]
+}
