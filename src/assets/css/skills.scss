@@ -1,0 +1,46 @@
+.skills {
+  font-weight: bold;
+  .title {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+
+    .skill {
+      width: 350px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+
+      .value {
+        display: flex;
+        i {
+          margin: 0 4px;
+        }
+        .disable {
+          opacity: 0.3;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skills {
+    .list {
+      .skill {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+
+        p {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}

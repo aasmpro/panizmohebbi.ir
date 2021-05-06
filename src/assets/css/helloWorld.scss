@@ -1,0 +1,125 @@
+@keyframes recolor {
+  0% {
+    background-color: $color-pink;
+  }
+  20% {
+    background-color: $color-orange;
+  }
+  35% {
+    background-color: $color-yellow;
+  }
+  55% {
+    background-color: $color-green;
+  }
+  70% {
+    background-color: $color-blue;
+  }
+  85% {
+    background-color: $color-purple;
+  }
+  100% {
+    background-color: $color-pink;
+  }
+}
+
+@keyframes breathe {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  55% {
+    opacity: 0.3;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.hello-world {
+  background-color: $color-green;
+  animation: recolor 20s infinite;
+  color: $color-white;
+  .fa-baby {
+    font-size: 150px;
+  }
+  .title {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+  }
+  .pattern {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 45px;
+
+    i {
+      position: absolute;
+    }
+
+    .fa-stack-overflow {
+      top: 5%;
+      left: 5%;
+      animation: breathe 10s infinite;
+    }
+    .fa-python {
+      top: 10%;
+      left: 36%;
+      animation: breathe 7s infinite;
+    }
+    .fa-js-square {
+      top: 26%;
+      left: 15%;
+      animation: breathe 9s infinite;
+    }
+    .fa-java {
+      top: 50%;
+      left: 25%;
+      animation: breathe 10s infinite;
+    }
+    .fa-docker {
+      top: 74%;
+      left: 16%;
+      animation: breathe 8s infinite;
+    }
+    .fa-react {
+      top: 83%;
+      left: 50%;
+      animation: breathe 9s infinite;
+    }
+    .fa-css3-alt {
+      top: 5%;
+      left: 75%;
+      animation: breathe 7s infinite;
+    }
+    .fa-html5 {
+      top: 20%;
+      left: 60%;
+      animation: breathe 6s infinite;
+    }
+    .fa-git-square {
+      top: 40%;
+      left: 80%;
+      animation: breathe 11s infinite;
+    }
+    .fa-linux {
+      top: 69%;
+      left: 70%;
+      animation: breathe 8s infinite;
+    }
+    .fa-steam {
+      top: 90%;
+      left: 85%;
+      animation: breathe 7s infinite;
+    }
+  }
+}

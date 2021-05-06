@@ -1,0 +1,35 @@
+.family {
+  font-weight: bold;
+  .title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .sub-title {
+    font-size: 14px;
+  }
+  .images {
+    display: flex;
+    margin-top: 50px;
+
+    img {
+      border-radius: 100%;
+
+      margin: 0 30px 20px 30px;
+      display: block;
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .family {
+    padding: 250px 0;
+    .images {
+      flex-direction: column;
+      p {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
